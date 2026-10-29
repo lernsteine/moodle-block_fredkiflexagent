@@ -1,5 +1,9 @@
 # Changes
 
+## 2.2.1 (2026-10-29)
+
+- Stylesheet reformatted to pass Moodle's stylelint; passes the Moodle plugin CI on Moodle 4.4, 4.5 and 5.0.
+
 ## 2.2.0 (2026-10-28)
 
 - Licensed under GNU GPL v3 or later; coding style follows the Moodle coding standard.

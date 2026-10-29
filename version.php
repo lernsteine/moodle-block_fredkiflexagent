@@ -25,10 +25,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_fredkiflexagent';
-$plugin->version = 2026102800;
+$plugin->version = 2026102901;
 $plugin->requires = 2024042200;
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '2.2.0';
+$plugin->release = '2.2.1';
 $plugin->dependencies = [
     'local_fredkichat' => 2026102900,
 ];
