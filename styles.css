@@ -1,0 +1,466 @@
+.block_fredkiflexagent .card-body,
+.block_fredkiflexagent .content {
+    padding: 0;
+}
+
+.fredkiflexagent-card {
+    border: 1px solid #dfe6ee;
+    border-radius: 1rem;
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+.fredkiflexagent-card-empty {
+    border-style: dashed;
+}
+
+.fredkiflexagent-top {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: .85rem;
+}
+
+.fredkiflexagent-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .85rem;
+    background: #e8f3ff;
+    color: #0f65bd;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+
+.fredkiflexagent-badge-active {
+    background: #e7f8ef;
+    color: #16794c;
+}
+
+.fredkiflexagent-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #1f2937;
+    line-height: 1.2;
+}
+
+.fredkiflexagent-subtitle,
+.fredkiflexagent-emptytext,
+.fredkiflexagent-status {
+    color: #5b6472;
+    font-size: .92rem;
+    line-height: 1.45;
+}
+
+.fredkiflexagent-emptytext {
+    margin: .25rem 0 1rem;
+}
+
+.fredkiflexagent-agentbox {
+    border-radius: .85rem;
+    background: #f8fafc;
+    border: 1px solid #e7edf4;
+    padding: .85rem;
+    margin-bottom: .9rem;
+}
+
+.fredkiflexagent-agentname {
+    font-weight: 700;
+    color: #111827;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-bottom: .15rem;
+    word-break: break-word;
+}
+
+.fredkiflexagent-actions {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.fredkiflexagent-primarybtn,
+.fredkiflexagent-secondarybtn {
+    border-radius: .75rem;
+    font-weight: 600;
+}
+
+
+/* Product-level agent selection page */
+.fredkiflexagent-select-hero {
+    max-width: 980px;
+    margin: 0 auto 1.5rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(135deg, #f4f9ff, #eefaf8);
+    border: 1px solid #dcebf4;
+}
+.fredkiflexagent-select-kicker {
+    color: #0f65bd;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .78rem;
+    margin-bottom: .25rem;
+}
+.fredkiflexagent-select-hero h2 {
+    margin: 0;
+    font-weight: 700;
+}
+.fredkiflexagent-select-intro {
+    margin-top: .5rem;
+    color: #4b5563;
+    max-width: 760px;
+    line-height: 1.5;
+}
+.fredkiflexagent-select-meta {
+    margin-top: 1rem;
+}
+.fredkiflexagent-select-meta-label {
+    color: #667085;
+}
+.fredkiflexagent-select-meta-value,
+.fredkiflexagent-current-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid #d8e5ef;
+    padding: .25rem .7rem;
+    font-weight: 650;
+    color: #1f2937;
+}
+.fredkiflexagent-selectform-product {
+    max-width: 980px;
+    margin: 0 auto 2rem;
+}
+.fredkiflexagent-select-toolbar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.fredkiflexagent-search-wrap {
+    flex: 1 1 360px;
+}
+.fredkiflexagent-search {
+    border-radius: .85rem;
+    padding: .75rem 1rem;
+}
+.fredkiflexagent-current-info {
+    white-space: nowrap;
+}
+.fredkiflexagent-agentgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+.fredkiflexagent-agentcard {
+    cursor: pointer;
+    display: flex;
+    gap: .85rem;
+    min-height: 150px;
+    border: 1px solid #dfe7ef;
+    background: #fff;
+    border-radius: 1.1rem;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, .06);
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.fredkiflexagent-agentcard:hover,
+.fredkiflexagent-agentcard:focus {
+    transform: translateY(-1px);
+    border-color: #89bced;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, .10);
+    outline: none;
+}
+.fredkiflexagent-agentcard-active {
+    border-color: #0f6fc5;
+    box-shadow: 0 0 0 3px rgba(15, 111, 197, .12), 0 10px 24px rgba(15, 23, 42, .10);
+}
+.fredkiflexagent-agent-avatar {
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8f3ff;
+    color: #0f65bd;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.fredkiflexagent-agentcard-active .fredkiflexagent-agent-avatar {
+    background: #e7f8ef;
+    color: #16794c;
+}
+.fredkiflexagent-agent-cardbody {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+}
+.fredkiflexagent-agent-cardtitle {
+    color: #111827;
+    font-weight: 750;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    margin-bottom: .35rem;
+    word-break: break-word;
+}
+.fredkiflexagent-agent-carddesc {
+    color: #667085;
+    line-height: 1.45;
+    font-size: .92rem;
+    overflow: hidden;
+}
+.fredkiflexagent-agent-cardfooter {
+    margin-top: auto;
+    padding-top: .75rem;
+}
+.fredkiflexagent-agent-cardaction {
+    display: inline-flex;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #344054;
+    font-size: .85rem;
+    font-weight: 650;
+    padding: .3rem .7rem;
+}
+.fredkiflexagent-agentcard-active .fredkiflexagent-agent-cardaction {
+    background: #dcfce7;
+    color: #166534;
+}
+.fredkiflexagent-sticky-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
+    margin-top: 1.25rem;
+    padding: 1rem;
+    border: 1px solid #dfe7ef;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .94);
+    backdrop-filter: blur(8px);
+    display: flex;
+    gap: .75rem;
+    box-shadow: 0 -4px 18px rgba(15, 23, 42, .06);
+}
+.fredkiflexagent-savebtn,
+.fredkiflexagent-cancelbtn {
+    border-radius: .8rem;
+    font-weight: 650;
+    padding: .65rem 1rem;
+}
+.fredkiflexagent-noresults,
+.fredkiflexagent-select-alert {
+    max-width: 980px;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+}
+.fredkiflexagent-noresults {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    color: #7c2d12;
+}
+.fredkiflexagent-select-alert-warning {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    color: #7c2d12;
+}
+.fredkiflexagent-select-alert-error {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #7f1d1d;
+}
+.fredkiflexagent-alert-title {
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+@media (max-width: 700px) {
+    .fredkiflexagent-select-toolbar {
+        display: block;
+    }
+    .fredkiflexagent-current-info {
+        margin-top: .75rem;
+        white-space: normal;
+    }
+    .fredkiflexagent-sticky-actions {
+        position: static;
+        flex-direction: column;
+    }
+}
+
+
+/* Participant-ready course block */
+.fredkiflexagent-card-product {
+    position: relative;
+    overflow: hidden;
+}
+.fredkiflexagent-card-product::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0f6fc5, #22c55e);
+}
+.fredkiflexagent-card-product .fredkiflexagent-top {
+    margin-top: .2rem;
+}
+.fredkiflexagent-actions-product {
+    align-items: center;
+    margin-top: .25rem;
+}
+.fredkiflexagent-openbtn {
+    min-width: 100%;
+    justify-content: center;
+    box-shadow: 0 8px 18px rgba(15, 111, 197, .16);
+}
+.fredkiflexagent-openbtn-loading::after {
+    content: "…";
+    margin-left: .15rem;
+}
+.fredkiflexagent-openbtn-hint {
+    box-shadow: 0 0 0 3px rgba(15, 111, 197, .12);
+}
+.fredkiflexagent-managelink {
+    padding-left: 0;
+    padding-right: 0;
+    color: #5b6472;
+    font-weight: 650;
+    text-decoration: none;
+}
+.fredkiflexagent-managelink:hover,
+.fredkiflexagent-managelink:focus {
+    color: #0f65bd;
+    text-decoration: underline;
+}
+.fredkiflexagent-participantnote {
+    margin-top: .75rem;
+    color: #667085;
+    font-size: .84rem;
+    line-height: 1.35;
+}
+@media (min-width: 480px) {
+    .fredkiflexagent-openbtn {
+        min-width: auto;
+    }
+}
+
+/* Compact course block */
+.fredkiflexagent-card-compact {
+    padding: .85rem;
+}
+.fredkiflexagent-card-compact .fredkiflexagent-top {
+    margin-bottom: .65rem;
+    padding-bottom: .65rem;
+    border-bottom: 1px solid #eef2f7;
+}
+.fredkiflexagent-card-compact .fredkiflexagent-badge {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: .75rem;
+    font-size: .95rem;
+}
+.fredkiflexagent-card-compact .fredkiflexagent-title {
+    font-size: 1rem;
+}
+.fredkiflexagent-card-compact .fredkiflexagent-subtitle {
+    font-size: .88rem;
+}
+.fredkiflexagent-readyline {
+    color: #166534;
+    background: #ecfdf3;
+    border: 1px solid #bbf7d0;
+    border-radius: .75rem;
+    padding: .55rem .7rem;
+    font-size: .9rem;
+    line-height: 1.35;
+}
+.fredkiflexagent-embed-loader {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+.fredkiflexagent-agentgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:16px}.fredkiflexagent-agentchoice input{position:absolute;opacity:0;pointer-events:none}.fredkiflexagent-agentcard{display:block;padding:18px;border:2px solid #e5e7eb;border-radius:14px;background:#fff;cursor:pointer;transition:.15s ease}.fredkiflexagent-agentchoice input:checked+.fredkiflexagent-agentcard,.fredkiflexagent-agentcard:hover{border-color:#0f6fc6;box-shadow:0 4px 16px rgba(0,0,0,.08)}.fredkiflexagent-agentname{font-weight:700;font-size:1.05rem}.fredkiflexagent-agentdesc{margin-top:4px;color:#6b7280}.fredkiflexagent-selectedname{font-weight:600;margin-top:6px}
+
+
+/* Clear visual status for agent variants */
+.fredkiflexagent-cardhead {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: .75rem;
+    width: 100%;
+}
+.fredkiflexagent-statusbadge {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: .28rem .62rem;
+    font-size: .72rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: .035em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+.fredkiflexagent-status-designed {
+    background: #e8f7ef;
+    color: #17633e;
+    border-color: #bfe7d1;
+}
+.fredkiflexagent-status-standard {
+    background: #eef2f6;
+    color: #465362;
+    border-color: #d7dee7;
+}
+.fredkiflexagent-status-unavailable {
+    background: #fff1f0;
+    color: #9f2d27;
+    border-color: #f3c5c2;
+}
+.fredkiflexagent-card-designed {
+    border-left: 5px solid #48a978;
+}
+.fredkiflexagent-card-standard {
+    border-left: 5px solid #8a97a6;
+}
+.fredkiflexagent-card-unavailable {
+    border-left: 5px solid #cf6b65;
+}
+.fredkiflexagent-agentcard.is-disabled {
+    cursor: not-allowed;
+    opacity: .62;
+    background: #f8f9fb;
+    box-shadow: none;
+}
+.fredkiflexagent-agentcard.is-disabled:hover,
+.fredkiflexagent-agentcard.is-disabled:focus {
+    transform: none;
+    border-color: #dfe7ef;
+    box-shadow: none;
+}
+.fredkiflexagent-unavailablehint {
+    margin-top: .7rem;
+    font-size: .87rem;
+    line-height: 1.4;
+    color: #6b7280;
+}
+@media (max-width: 560px) {
+    .fredkiflexagent-cardhead {
+        display: block;
+    }
+    .fredkiflexagent-statusbadge {
+        margin-top: .55rem;
+    }
+}
