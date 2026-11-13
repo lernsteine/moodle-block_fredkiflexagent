@@ -2,8 +2,12 @@
 
 Course block that lets teachers choose which **FredKI** agent is available as a chat in their course.
 
-FredKI is a hosted AI service by lernsteine.com based on [MaxKB](https://github.com/1Panel-dev/MaxKB) v2.
-**A FredKI account is required.** The plugin itself is free software under the GNU GPL v3 or later.
+The plugin itself is free software under the GNU GPL v3 or later.
+
+FredKI is free and open-source software (GNU GPL v3). You can run your own FredKI server
+without payment and without functional limits: https://github.com/lernsteine/FredKI.
+lernsteine.com additionally offers FredKI as an optional hosted service; it is not required.
+The plugin works the same with both.
 
 Requires the plugin **FredKI Chat** (`local_fredkichat`), which holds the FredKI connection and the chat designs.
 
@@ -30,6 +34,7 @@ offered to the course. Credentials and tokens are never shown.
 
 - Moodle 4.4 or later
 - local_fredkichat 1.2.0 or later
+- A FredKI server (self-hosted or hosted, see above)
 
 ## Privacy
 

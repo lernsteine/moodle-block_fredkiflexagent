@@ -1,5 +1,10 @@
 # Changes
 
+## 2.2.2 (2026-11-13)
+
+- LICENSE file with the full GNU GPL v3 text in the plugin root.
+- README: FredKI can be self-hosted for free (https://github.com/lernsteine/FredKI); the hosted service is optional.
+
 ## 2.2.1 (2026-10-29)
 
 - Stylesheet reformatted to pass Moodle's stylelint; passes the Moodle plugin CI on Moodle 4.4, 4.5 and 5.0.
